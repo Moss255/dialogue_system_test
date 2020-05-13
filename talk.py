@@ -2,6 +2,13 @@ import json
 
 position = 0
 
+characterName = input("What character would you like to talk to? >>> ")
+
+with open('characters.json', 'r') as characters:
+	data = json.loads(characters.read())
+	cFile = data[characterName]['fileName']
+	print(cFile)
+
 with open('C1.json', 'r') as p:
 	cData = json.loads(p.read())
 
