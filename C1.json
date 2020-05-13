@@ -1,0 +1,62 @@
+[
+    {
+        "interactID":0,
+        "line": "Howdy",
+        "responses" : ["How you doing today?", "What do you know about oranges?", "Goodbye"],
+        "responsesJump": [1, 2, -1]
+    },
+    {
+        "interactID":1,
+        "line": "That's good to hear!",
+        "responses": [],
+        "responsesJump" : [9]
+    },
+    {
+        "interactID":2,
+        "line": "Yeah, oranges are mad, grow on trees and everything!",
+        "responses": [],
+        "responsesJump": [5]
+    },
+    {
+        "interactID":3,
+        "line": "Oh... you just want to know about then?",
+        "responses": ["Honestly, yes", "No, I have greater intentions"],
+        "responsesJump": [4, 5]
+    },
+    {
+        "interactID":4,
+        "line": "Ah, fair enough... So we are done here?",
+        "responses": ["Yep"],
+        "responsesJump": [9]
+    },
+    {
+        "interactID":5,
+        "line": "Why do you want to know about oranges?",
+        "responses": ["Because they are interesting", "Because I need them in"],
+        "responsesJump": [3, 6]
+    },
+    {
+        "interactID":6,
+        "line": "Ah, I here they are down by the old farm... maybe you could go fetch them?",
+        "responses": ["That sounds good", "Erm, maybe not"],
+        "responsesJump": [7, 9]
+    },
+    {
+        "interactID":7,
+        "line": "Right, so you need to head west and then north from the town",
+        "responses": [],
+        "responsesJump": [8]
+    },
+    {
+        "interactID":8,
+        "line": "Good luck to you",
+        "responses": [],
+        "responsesJump": [-1]
+    },
+    {
+        "interactID":9,
+        "line": "What else can I do for you?",
+        "responses": ["How you doing today?", "What do you know about oranges?", "Goodbye"],
+        "responsesJump": [1, 2, -1]
+    }
+]
