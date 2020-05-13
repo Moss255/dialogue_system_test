@@ -1,6 +1,7 @@
 {
-    "Jason" : {
+    "jason_basement" : {
         "characterID":1,
-        "fileName": "C1.Json"
+        "fileName": "C1.Json",
+        "reputation": 5
     }
 }
